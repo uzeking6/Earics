@@ -30,7 +30,7 @@ class _ChatBotState extends State<ChatBot> {
   @override
   void initState() {
     super.initState();
-    String? apiKey = 'AIzaSyD4OzWQYvpNZ868dni6XX7Hbk9LcyiNYpo';
+    String? apiKey = 'your key';
     gemini = GoogleGemini(apiKey: apiKey);
 
     if (widget.msg.isNotEmpty) {
