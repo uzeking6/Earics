@@ -65,7 +65,15 @@ class _loginScreenState extends State<loginScreen> {
                       "lib/assets/image.png",
                       height: screenHeight * 0.3,
                     ),
-                    const SizedBox(height: 100),
+                    const SizedBox(height: 30),
+                    Center(
+                      child: const Text(
+                        "Welcome to Earics! Your one-stop for communication and collaboration ",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(fontSize: 20, color: Colors.black),
+                      ),
+                    ),
+                    const SizedBox(height: 80),
                     Button(
                       text: "Get Started with earics",
                       onPressed: () {

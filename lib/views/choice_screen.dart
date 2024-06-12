@@ -15,6 +15,10 @@ class ChoiceScreen extends StatefulWidget {
 class _ChoiceScreenState extends State<ChoiceScreen> {
   final bool _isPasswordVisible = false;
 
+  double screenHeight(BuildContext context) {
+    return MediaQuery.of(context).size.height;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

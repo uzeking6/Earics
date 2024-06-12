@@ -60,6 +60,10 @@ class _RegisterState extends State<Register> {
     }
   }
 
+  double screenHeight(BuildContext context) {
+    return MediaQuery.of(context).size.height;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -173,7 +177,7 @@ class _RegisterState extends State<Register> {
                 const SizedBox(height: 10),
                 TextFormField(
                   controller: _passwordController,
-                  obscureText: _isPasswordVisible,
+                  obscureText: !_isPasswordVisible,
                   decoration: InputDecoration(
                     labelText: 'Password',
                     floatingLabelBehavior: FloatingLabelBehavior.always,

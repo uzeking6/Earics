@@ -13,6 +13,10 @@ class ResetDone extends StatefulWidget {
 class _ResetDoneState extends State<ResetDone> {
   bool obscureText = true;
 
+  double screenHeight(BuildContext context) {
+    return MediaQuery.of(context).size.height;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
