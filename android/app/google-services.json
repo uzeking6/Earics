@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "56749098319",
+    "project_id": "earics",
+    "storage_bucket": "earics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56749098319:android:9a886d7c9bd31bd741f13a",
+        "android_client_info": {
+          "package_name": "com.example.firstapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsJ_p9HxfO8L-N4ErOAVJkxgnMd1PMIcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
